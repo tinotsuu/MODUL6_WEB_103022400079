@@ -1,6 +1,6 @@
-function LabelHarga(harga){
+function labelHarga(harga){
     return(
         <p> Rp: {harga.toLocalString('id-ID')}</p>
     );
 }
-export default KantinCard;
+export default labelHarga;
